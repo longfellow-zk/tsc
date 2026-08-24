@@ -1,0 +1,18 @@
+teams:
+  - name: lf-staff
+    maintainers:
+      - christinaharter
+      - hartm
+      - oqs-bot
+      - ryjones
+    members: []
+
+repositories:
+  - name: .github
+    teams:
+      lf-staff: maintain
+    visibility: public
+  - name: tsc
+    teams:
+      lf-staff: maintain
+    visibility: public
