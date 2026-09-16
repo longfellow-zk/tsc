@@ -6,13 +6,26 @@ teams:
       - oqs-bot
       - ryjones
     members: []
-
+  - name: longfellow-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - abhvious
+      - matteo-frigo
+      - ask77nl
 repositories:
   - name: .github
     teams:
       lf-staff: maintain
+      longfellow-maintainers: maintain
+    visibility: public
+  - name: longfellow-zk
+    teams:
+      lf-staff: maintain
+      longfellow-maintainers: maintain
     visibility: public
   - name: tsc
     teams:
       lf-staff: maintain
+      longfellow-maintainers: maintain
     visibility: public
