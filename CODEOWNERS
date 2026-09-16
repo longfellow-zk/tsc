@@ -1,0 +1,5 @@
+# Code owners for longfellow-zk/tsc
+# Reviews from a listed owner are required when branch protection enables
+# "Require review from Code Owners".
+
+config.yaml @longfellow-zk/longfellow-maintainers @longfellow-zk/lf-staff
